@@ -1,0 +1,54 @@
+FEEDBACK:
+
+Well done!
+
+
+Good exception handling in CSVReader.
+
+
+-0.5 Incomplete implementation of class CSVReader accessor method(s): 
+	Resulting in compilation error below.
+The method getNumberOfYears() is undefined for the type CSVReader
+
+	** Keep in mind that I run two test files when checking your work: **
+	   1) I first run your test file (i.e. the one you submit and perhaps modify). 
+	   2) Then, I run my test file. In my test file, I never call your "insert" method.
+
+
+
+-0 For future, place RUN.txt under the "resources" folder. 
+  Next time minus one for this.
+
+
+-0 Missing documentation of source code in Javadocs.
+   First, comment your code, especially the new additions to your project,
+   in the format required by the Javadocs generator: 
+   Then for ease of reference, generate Javadocs based on your documentation.
+   For example, instead of:
+	CSVReader(String fileName)
+    {
+        Scanner input;
+
+        /*
+         * reads given file line by line and splits every line into tokens 
+         * and stores these tokens into countryName, yearLable and cellularDataTable arrays
+         */
+         
+         ... 
+     }
+	
+	Change as follows:
+	/**
+      * reads given file line by line and splits every line into tokens 
+      * and stores these tokens into countryName, yearLable and cellularDataTable arrays
+      * @param fILE		The path to the CSV file to read.
+	 */
+	public CSVReader(String filename)
+
+    NOTE: An example is provided in Modules titled "Example Program Submission".
+
+    Next time minus for this.
+
+
+-Bita.
+
